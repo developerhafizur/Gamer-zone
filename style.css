@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header-container {
+  margin: 0 auto;
+  width: 1050px;
+  max-width: 1050px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 2px 2px 2px 2px rgb(237, 231, 231);
+}
+
+.logo {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.logo img {
+  display: inline-block;
+}
+.logo > h2 {
+  display: inline-block;
+}
+nav ul {
+  display: flex;
+}
+ul li {
+  list-style: none;
+}
+ul li a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 20px;
+}
+.fobtn {
+  padding: 20px;
+}
+/****/
+.banner-container {
+  margin: 0 auto;
+  width: 1050px;
+  max-width: 1050px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.banner-img {
+  width: 70%;
+  position: relative;
+}
+.banner-img img {
+  width: 100%;
+  height: 600px;
+}
+
+/**/
+
+.know-container {
+  margin: 0 auto;
+  width: 1050px;
+  max-width: 1050px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.know-img img {
+  width: 700px;
+}
+/**/
+
+.games-container {
+  margin: 0 auto;
+  width: 1050px;
+  max-width: 1050px;
+  text-align: center;
+}
+.games-cards {
+  display: flex;
+  gap: 20px;
+}
+.game-card img {
+  width: 250px;
+}
+/**/
+.anniversary-container {
+  margin: 0 auto;
+  width: 1050px;
+  max-width: 1050px;
+  display: flex;
+  align-items: center;
+}
+.ani-img {
+  position: relative;
+  width: 700px;
+  height: 700px;
+}
+
+.ani-img img {
+  position: absolute;
+}
+.image1 {
+  width: 550px;
+  z-index: 1;
+}
+.image2 {
+  bottom: 40px;
+  left: -100px;
+  width: 200px;
+  z-index: 3;
+}
+
+/**/
+
+.anid-container {
+  margin: 0 auto;
+  width: 1050px;
+  max-width: 1050px;
+  display: flex;
+  align-items: center;
+}
+
+.anid-img {
+  width: 700px;
+  height: 700px;
+}
+
+.anid-img1 {
+  width: 550px;
+  /* z-index: 1; */
+}
+.anid-img2 {
+  /* bottom: 40px;
+  right: -160px; */
+  width: 200px;
+  margin-left: -110px;
+  margin-bottom: -100px;
+  /* z-index: 3; */
+}
+.anid-tx {
+  width: 400px;
+}
+
+/**/
+.careers-section{
+  background-color: rgb(234, 28, 234);
+}
+.careers-container {
+  margin: 0 auto;
+  width: 1050px;
+  max-width: 1050px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.careers-info{
+width: 50%;
+}
+.careers-img{
+width: 70%;
+
+}
+.careers-img img {
+  width: 100%;
+}
