@@ -3,7 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+body {
+  font-family: "Work Sans", sans-serif;
+}
 .header-container {
   margin: 0 auto;
   width: 1050px;
@@ -12,7 +14,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 2px 2px 2px 2px rgb(237, 231, 231);
 }
 
 .logo {
@@ -24,24 +25,37 @@
 }
 .logo img {
   display: inline-block;
+  width: 86.041px;
 }
-.logo > h2 {
-  display: inline-block;
+
+.lh-bold {
+  font-size: 50px;
+  font-weight: 900;
 }
 nav ul {
   display: flex;
+  align-items: center;
 }
 ul li {
   list-style: none;
 }
-ul li a {
+.nA {
   text-decoration: none;
   display: inline-block;
   padding: 20px;
+  color: black;
 }
 .fobtn {
-  padding: 20px;
+  padding: 15px 40px;
+  border-radius: 5px;
+  background-color: rgba(189, 189, 186, 0.313);
 }
+.fobtn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
 /****/
 .banner-container {
   margin: 0 auto;
@@ -59,9 +73,30 @@ ul li a {
   width: 100%;
   height: 600px;
 }
+.b-p {
+  font-size: 40px;
+}
+.b-pink{
+  color: rgb(178, 81, 186);
+  font-size: 70px;
+  font-weight: bolder;
+  
+}
+.banner-intro p{
+  margin-bottom: 15px;
+}
+.banner-intro button{
+  padding: 15px 30px;
+  background-color: rgb(225, 93, 196);
+  border: none;
+  border-radius: 10px;
+}
+
 
 /**/
-
+.know-section {
+  padding: 80px 0;
+}
 .know-container {
   margin: 0 auto;
   width: 1050px;
@@ -75,12 +110,17 @@ ul li a {
   width: 700px;
 }
 /**/
-
+.games-section {
+  padding-top: 20px;
+}
 .games-container {
   margin: 0 auto;
   width: 1050px;
   max-width: 1050px;
   text-align: center;
+}
+.gm-tx {
+  padding-bottom: 40px;
 }
 .games-cards {
   display: flex;
@@ -90,6 +130,9 @@ ul li a {
   width: 250px;
 }
 /**/
+.anniversary-section {
+  padding-top: 70px;
+}
 .anniversary-container {
   margin: 0 auto;
   width: 1050px;
@@ -118,7 +161,9 @@ ul li a {
 }
 
 /**/
-
+.anid-section {
+  padding: 50px 0;
+}
 .anid-container {
   margin: 0 auto;
   width: 1050px;
@@ -149,8 +194,9 @@ ul li a {
 }
 
 /**/
-.careers-section{
+.careers-section {
   background-color: rgb(234, 28, 234);
+  padding: 50px 0;
 }
 .careers-container {
   margin: 0 auto;
@@ -160,13 +206,93 @@ ul li a {
   align-items: center;
   gap: 30px;
 }
-.careers-info{
-width: 50%;
+.careers-info {
+  width: 50%;
 }
-.careers-img{
-width: 70%;
-
+.careers-img {
+  width: 70%;
 }
 .careers-img img {
   width: 100%;
+}
+.careers-op {
+  display: flex;
+  gap: 30px;
+
+  padding: 10px 0;
+}
+
+/**/
+.allgames-section {
+  padding: 80px 0;
+}
+.allgames-container {
+  margin: 0 auto;
+  width: 1050px;
+  max-width: 1050px;
+}
+
+.allgames-cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.allgame-card {
+  display: flex;
+  align-items: center;
+  width: 200px;
+  gap: 10px;
+  border: 1px solid black;
+}
+
+/**/
+
+footer {
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+.footer-container {
+  margin: 0 auto;
+  width: 1050px;
+  max-width: 1050px;
+  padding: 140px 100px;
+}
+.footer-nav {
+  padding: 50px 0;
+}
+.footer-nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.footer-icon ul {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.footer-icon {
+  padding-bottom: 30px;
+}
+.footer-icon ul li button {
+  width: 40px;
+  background-color: rgb(0, 0, 0);
+  border: none;
+}
+.footer-icon ul li button i {
+  font-size: 30px;
+  color: rgb(255, 255, 255);
+}
+ul li {
+  list-style-type: none;
+}
+.policy {
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+  gap: 20px;
+}
+.fo-p {
+  text-align: center;
 }
