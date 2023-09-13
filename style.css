@@ -102,12 +102,40 @@ ul li {
   width: 1050px;
   max-width: 1050px;
   display: flex;
+  gap: 20px;
   justify-content: space-around;
   align-items: center;
 }
 
 .know-img img {
-  width: 700px;
+  width: 690px;
+}
+.know-de{
+  text-align: end;
+}
+.know-de h2{
+  font-size: 35px;
+  color: rgb(205, 78, 231);
+  margin-bottom: 10px;
+}
+.know-de p{
+  margin: 10px 0;
+}
+.know-btn{
+  padding: 15px 35px;
+  border: none;
+  background-color: rgb(255, 0, 149);
+  border-radius: 5px;
+}
+.pp{
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(101, 84, 84);
+}
+.pq{
+  font-size: 22px;
+  color: rgb(64, 64, 64);
+
 }
 /**/
 .games-section {
@@ -122,13 +150,26 @@ ul li {
 .gm-tx {
   padding-bottom: 40px;
 }
+.gm-tx h2{
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
 .games-cards {
   display: flex;
-  gap: 20px;
+  justify-content: space-between;
+  align-items: baseline;
+ 
+}
+.game-card{
+  width: 240px;
 }
 .game-card img {
-  width: 250px;
+
+  width: 100%;
 }
+
+
 /**/
 .anniversary-section {
   padding-top: 70px;
@@ -139,6 +180,23 @@ ul li {
   max-width: 1050px;
   display: flex;
   align-items: center;
+}
+
+
+.play-text{
+width: 40%;
+margin: auto;
+color: rgb(211, 63, 222);
+font-weight: 600;
+font-size: 30px;
+text-align: right;
+}
+.play-para{
+  padding-top: 15px;
+  width: 40%;
+  margin: auto;
+  text-align: right;
+
 }
 .ani-img {
   position: relative;
@@ -159,6 +217,13 @@ ul li {
   width: 200px;
   z-index: 3;
 }
+
+
+
+
+
+
+
 
 /**/
 .anid-section {
@@ -193,6 +258,23 @@ ul li {
   width: 400px;
 }
 
+.play-text2{
+width: 80%;
+font-size: 27px;
+font-weight: 900;
+color: rgb(226, 43, 189);
+padding-left: 25px;
+}
+.play-para2{
+padding-top: 20px;
+padding-left: 25px;
+
+
+}
+
+
+
+
 /**/
 .careers-section {
   background-color: rgb(234, 28, 234);
@@ -208,6 +290,24 @@ ul li {
 }
 .careers-info {
   width: 50%;
+}
+.careers-info h3{
+font-size: 35px;
+color: white;
+margin-bottom: 10px;
+}
+.wt{
+  color: rgba(255, 255, 255, 0.815);
+}
+.careers-op {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+.posi-btn{
+  padding: 15px 35px;
+  border: none;
+  border-radius: 10px;
+  color: rgb(182, 33, 208);
 }
 .careers-img {
   width: 70%;
@@ -242,9 +342,9 @@ ul li {
 .allgame-card {
   display: flex;
   align-items: center;
-  width: 200px;
+  width: 220px;
   gap: 10px;
-  border: 1px solid black;
+
 }
 
 /**/
