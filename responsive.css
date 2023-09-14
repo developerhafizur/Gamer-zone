@@ -1,77 +1,83 @@
-/*mobile responsive*/
-
 @media only screen and (max-width: 665px) {
+  /*header*/
   .header-container {
     flex-direction: column;
-  }
-  nav ul {
-    flex-direction: column;
-  }
-
-  .banner-container {
-    flex-direction: column-reverse;
-  }
-  .banner-intro {
-    width: 50%;
-    text-align: center;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 80px;
   }
 
-  .know-container {
-    flex-direction: column;
-  }
-
-  .know-de {
-    width: 50%;
-    text-align: center;
-  }
-  .games-cards {
+  .nav {
     flex-direction: column;
     align-items: center;
-    gap: 20px;
   }
 
-  .game-card {
-    width: 50%;
+  /*banner*/
+  .banner-container {
+    flex-direction: column-reverse;
+    gap: 40px;
+    padding: 0 30px;
   }
-  .game-card img {
+
+  .banner-left {
+    width: 70%;
+  }
+
+  /*wegamersection*/
+  .wearegamer-container {
+    flex-direction: column;
+    gap: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  .weright {
+    width: 100%;
+    text-align: center;
+  }
+  /*videosection*/
+
+  .video-container {
+    padding: 0 10px;
+  }
+  .video-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+  .video-card {
+    width: 90%;
+  }
+  .video-img img {
     width: 100%;
   }
 
-  .anniversary-container {
+  /*play-section*/
+  .play-container {
     flex-direction: column;
+    padding: 0 10px;
   }
-  .ani-img {
-    width: 50%;
-    height: 500px;
-  }
-  .play-text {
+  .play-left {
+    width: 100%;
     text-align: center;
   }
-
-  .play-para {
-    text-align: center;
+  .play-right {
+    width: 80%;
   }
 
+  .play-right img {
+    width: 84%;
+    position: relative;
+  }
+  .play-right .img2 {
+    bottom: -18px;
+    left: -20;
+  }
+
+  /*allgames*/
+  .allgames-container {
+    padding: 40px 0;
+  }
   .allgames-cards {
-    grid-template-columns: repeat(3, 1fr);
-  }
-  .allgames-card {
-    width: 200px;
-  }
-
-  .footer-container {
-    width: 1050px;
-    max-width: 1050px;
-  }
-  .footer-nav ul {
-    grid-template-columns: repeat(3, 1fr);
-  }
-
-  .footer-icon ul {
-    grid-template-columns: repeat(3, 1fr);
-  }
-
-  .policy {
     grid-template-columns: repeat(2, 1fr);
   }
+ 
 }
