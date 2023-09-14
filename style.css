@@ -61,7 +61,7 @@ header {
 .banner-left {
   width: 25%;
 }
-.banner-left p{
+.banner-left p {
   margin-bottom: 5px;
 }
 .banner-heading {
@@ -75,13 +75,18 @@ header {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.banner-right {
+  width: 50%;
+}
 .banner-right img {
-  width: 95%;
+  width: 100%;
 }
 .banner-left button {
   padding: 10px 24px;
   background-color: #b029be;
-  color: aliceblue;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
   border: none;
   margin: 3px;
 }
@@ -101,19 +106,28 @@ header {
   width: 30%;
   text-align: right;
 }
-.weright h2{
+.weright h2 {
   font-size: 35px;
-  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  margin-bottom: 10px;
 }
-.weright button{
+.weright p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.weright button {
   padding: 10px 30px;
   border: none;
   background-color: rgb(160, 16, 150);
   color: white;
   font-weight: bold;
+  border-radius: 5px;
+}
+.we_big_text {
+  font-size: 22px;
 }
 /*video-section*/
 
@@ -124,7 +138,7 @@ header {
   text-align: center;
   padding-bottom: 40px;
 }
-.video-heading h3{
+.video-heading h3 {
   margin-bottom: 10px;
   font-size: 35px;
   font-weight: 900;
@@ -135,10 +149,10 @@ header {
 }
 .video-card {
   width: 19%;
-  
 }
-.video-img{
+.video-img {
   position: relative;
+  margin-bottom: 20px;
 }
 .video-img .card-img {
   width: 250px;
@@ -158,15 +172,18 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background: linear-gradient( 0deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100% ), lightgray 50%;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.6) 0%,
+      rgba(0, 0, 0, 0.6) 100%
+    ),
+    lightgray 50%;
   opacity: 0;
   transition: opacity 0.25s;
 }
 .image-overley:hover {
   opacity: 85%;
 }
-
-
 
 /*play-section*/
 .play-container {
@@ -179,16 +196,15 @@ header {
 .play-left {
   width: 20%;
 }
-.play-left h3{
+.play-left h3 {
   font-size: 35px;
-  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  margin-bottom: 10px;
 }
-.banner-right {
-  width: 60%;
-}
+
 .play-right .img1 {
   width: 100%;
   position: relative;
@@ -220,10 +236,9 @@ header {
   border-radius: 30px;
   font-weight: 900;
 }
-.allgame-card:hover{
-outline: 2px solid rgb(196, 18, 169);
-color: rgb(198, 24, 187);
-
+.allgame-card:hover {
+  outline: 2px solid rgb(196, 18, 169);
+  color: rgb(198, 24, 187);
 }
 /*footer*/
 footer {
