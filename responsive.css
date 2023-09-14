@@ -59,6 +59,7 @@
     width: 100%;
     text-align: center;
   }
+ 
   .play-right {
     width: 80%;
   }
@@ -79,5 +80,17 @@
   .allgames-cards {
     grid-template-columns: repeat(2, 1fr);
   }
- 
+  /*footer*/
+  .footer-container {
+    padding: 100px 0;
+  }
+  .footer-nav ul {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .footer-icon ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .footer-policy {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
