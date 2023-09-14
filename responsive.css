@@ -1,12 +1,6 @@
 /*mobile responsive*/
 
 @media only screen and (max-width: 665px) {
-  header {
-    margin: 0 auto;
-    width: 1050px;
-    max-width: 1050px;
-  }
-
   .header-container {
     flex-direction: column;
   }
@@ -14,11 +8,6 @@
     flex-direction: column;
   }
 
-  .banner-section {
-    margin: 0 auto;
-    width: 1050px;
-    max-width: 1050px;
-  }
   .banner-container {
     flex-direction: column-reverse;
   }
@@ -27,8 +16,6 @@
     text-align: center;
   }
 
- 
-
   .know-container {
     flex-direction: column;
   }
@@ -36,11 +23,6 @@
   .know-de {
     width: 50%;
     text-align: center;
-  }
-  .games-section {
-    margin: 0 auto;
-    width: 1050px;
-    max-width: 1050px;
   }
   .games-cards {
     flex-direction: column;
@@ -55,13 +37,12 @@
     width: 100%;
   }
 
-  .anniversary-section {
-    margin: 0 auto;
-    width: 1050px;
-    max-width: 1050px;
-  }
   .anniversary-container {
     flex-direction: column;
+  }
+  .ani-img {
+    width: 50%;
+    height: 500px;
   }
   .play-text {
     text-align: center;
@@ -70,18 +51,6 @@
   .play-para {
     text-align: center;
   }
-  .anid-container {
-    flex-direction: column-reverse;
-  }
-
-  .careers-section {
-    margin: 0 auto;
-    width: 1050px;
-    max-width: 1050px;
-  }
-  .careers-container {
-    flex-direction: column;
-  }
 
   .allgames-cards {
     grid-template-columns: repeat(3, 1fr);
@@ -89,12 +58,11 @@
   .allgames-card {
     width: 200px;
   }
-  footer {
-    margin: 0 auto;
+
+  .footer-container {
     width: 1050px;
     max-width: 1050px;
   }
-
   .footer-nav ul {
     grid-template-columns: repeat(3, 1fr);
   }
